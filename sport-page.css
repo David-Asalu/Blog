@@ -1,0 +1,287 @@
+
+nav img{
+    display: none;
+  }
+  .title{
+   margin: 0;
+      margin-right: 30%;
+      margin-left: 15%;
+      padding-top: 15px;
+      float: left;
+    font-size: 2.5rem;
+    color: white;
+  }
+
+  .header {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  .top-flex{
+  
+  position: relative;
+  top: 200px;
+  margin-bottom: 250px;
+  
+  }
+  .text-content{
+    background-color: white;
+    width: 70%;
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin-bottom: 50px;
+
+  }
+  #h{
+    font-weight: initial;
+    font-size: 1.2rem;
+  }
+  .blog-headline {
+  
+      padding: 20px;
+    width: 95%;
+  
+    margin-top:  auto;
+    overflow: hidden;
+  margin-bottom: 10px;
+  position: relative;
+  
+  }
+  
+  .headline-top{
+    position: relative;
+  }
+    
+  .headline-top h1{
+    width:70% ;
+    font-size: 2rem;
+  }
+  .blog-headline img {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin-left: 0%;
+    clear: both;
+  }
+  
+   .header-overlay {
+    position: absolute;
+    bottom: 20px;
+   width: 45%;
+    background-color: white;
+    padding: 20px;
+    height: fit-content;
+    flex: 1;
+  }
+
+  nav {height: 100px;
+      background-color: #333;
+      position: fixed;
+      width: 100%;
+      z-index: 2;
+    }
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    
+    li {
+      font-size: 1.5rem;
+      float: left;
+      margin-right: 3%;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 18px 16px;
+      text-decoration: none;
+      position: relative;
+    }
+    
+    li a::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: transparent;
+      
+  
+    }
+
+ 
+
+    li a:hover {
+    
+  
+      border-bottom: white  5px solid;
+   
+    }
+    
+    li:nth-child(2) a:hover {
+      border-bottom: rgba(5, 132, 216, 0.449) 5px solid;
+      transition:  1s ;
+    }
+    
+    li:nth-child(3) a:hover {
+      border-bottom: rgb(232, 232, 6) 5px solid;
+      transition:  1s ;
+    }
+    li:nth-child(4) a:hover {
+      border-bottom: gold 5px solid;
+      transition:  0.5s ;
+    }* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
+}
+
+.blog-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-heading span {
+    font-size: 30px;
+}
+
+.blog-heading h2 {
+    font-size: 30px;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-box {
+    width: 550px;
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.blog-img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-img img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.sub {
+    height: 260px;
+}
+
+.blog-text {
+    padding: 20px 0px;
+    /* width: 70%; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-text span {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.blog-text a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.blog-text a:hover {
+    scale: 1.1;
+    transition: all ease 0.3s;
+}
+
+
+
+
+/* <!----------LINK-PAGE-1--------> */
+.container {
+    margin: 10px 20px;
+}
+.first-text {
+    font-size: 35px;
+    width: 60%;
+    margin-bottom: 26px;
+}
+
+.second-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.mini-container {
+    margin: 20px 0px;
+}
+
+.player-name {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.player-writeup {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .blog-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+ }
+
+ @media screen and (max-width: 800px) {
+    .blog-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .first-text {
+        font-size: 35px;
+        width: 90%;
+        margin-bottom: 26px;
+    }
+ }
